@@ -11,5 +11,8 @@ This project is a Receipt Processor API built with Spring Boot.
 1. **Build the Docker Image**:
 
    ```sh
-   docker build -t receipt-processor .
-2. docker run -p 9090:8080 receipt-processor
+   docker build -t  receipt-processor-challenge-docker.jar .
+2. **Run the Docker Container**:
+
+   ```sh
+docker run -p 9090:8080 receipt-processor-challenge-docker.jar 
